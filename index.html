@@ -10,10 +10,17 @@
     <header>
         <h1>Welcome to My Website</h1>
         <p>This is a simple HTML page.</p>
+
+        <!-- NEW: Navigation menu -->
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#services">Services</a> |
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <h2>About</h2>
             <p>
                 This project is created for learning web development and 
@@ -21,7 +28,17 @@
             </p>
         </section>
 
-        <section>
+        <!-- NEW: Services section -->
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Website Design</li>
+                <li>Frontend Development</li>
+                <li>GitHub Team Collaboration</li>
+            </ul>
+        </section>
+
+        <section id="contact">
             <h2>Contact</h2>
             <p>Email: example@email.com</p>
         </section>
